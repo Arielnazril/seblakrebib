@@ -100,7 +100,7 @@ body {
 .about .row .content p {
   margin-bottom: 0.8rem;
   font-size: 2rem;
-  font-weight: 100;
+  font-weight: bold;
   text-align: justify;
   margin-top: 8rem;
   text-shadow: 2px 2px 4px 	#fff;
@@ -115,7 +115,7 @@ span {
 .visi .misi .teks p {
   margin-bottom: 0.8rem;
   font-size: 2rem;
-  font-weight: 100;
+  font-weight: bold;
   color: #000;
   text-align: justify;
   margin-top: 4rem;
@@ -193,12 +193,18 @@ span {
     }
   }
   @media (max-width: 767px) {
+    .navbar img {
+      width: 30%;
+      border-radius: 6rem;
+      margin-bottom: 3rem;
+      border: 6px solid 	#8B0000;
+  }
     .misi {
       flex-direction: column-reverse; /* Balikkan urutan pada layar yang lebih kecil */
     }
     .about .row .content p,
     .visi .misi .teks p {
-      font-size: 15px;
+      font-size: 25px;
       margin-left: auto;
       margin-top: 1rem;
     }
@@ -212,6 +218,15 @@ span {
     }
     footer p {
       font-size: 15px;
+    }
+    .contact h1 p {
+      text-shadow: 2px 2px 4px 	#FFf;
+    }
+    .contact p {
+      font-size: 1rem;
+    }
+    .form h4 {
+      font-size: 0.5rem;
     }
 }
 
